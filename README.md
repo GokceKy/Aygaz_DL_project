@@ -1,7 +1,7 @@
 # Balık Görüntü Sınıflandırması ile ANN ve Hiperparametre Optimizasyonu
 
 ## Proje Açıklaması
-
+[Kaggle Notebook'u](https://www.kaggle.com/code/gokcekelesyilmaz/dl-bootcamp)
 Bu proje, büyük ölçekli bir balık veri setini kullanarak farklı balık türlerini sınıflandırmayı hedeflemektedir. Proje, görüntü verilerini işlemek için aktivasyon fonksiyonları, dropout katmanları ve optimizasyon için hiperparametre ayarı içeren bir Yapay Sinir Ağı (ANN) kullanmaktadır. Amaç, doğruluğu maksimize etmek ve aşırı öğrenmeyi azaltarak genel performansı artırmaktır.
 
 Veri seti, farklı türde balıkların görüntülerini içermektedir ve proje, modelin eğitimini, test edilmesini ve performansını artırmak için optimizasyon yapılmasını kapsamaktadır.
