@@ -32,23 +32,19 @@ Gizli katmanlar: 128 ve 64 birim
 Dropout: 0.3
 Çıktı Katmanı: Sınıf sayısı kadar birim, softmax aktivasyon ile.
 
+---
 Model Özeti:
 
 
-Layer (type)               Output Shape         Param #     
-=================================================================
-flatten_1 (Flatten)         (None, 49152)        0           
-_________________________________________________________________
-dense_1 (Dense)             (None, 128)          6291584     
-_________________________________________________________________
-dropout_1 (Dropout)         (None, 128)          0           
-_________________________________________________________________
-dense_2 (Dense)             (None, 64)           8256        
-_________________________________________________________________
-dropout_2 (Dropout)         (None, 64)           0           
-_________________________________________________________________
-output_layer (Dense)        (None, 5)            325         
-=================================================================
+| Layer (type)            | Output Shape      | Param #    |
+|-------------------------|-------------------|------------|
+| flatten_1 (Flatten)     | (None, 49152)     | 0          |
+| dense_1 (Dense)         | (None, 128)       | 6,291,584  |
+| dropout_1 (Dropout)     | (None, 128)       | 0          |
+| dense_2 (Dense)         | (None, 64)        | 8,256      |
+| dropout_2 (Dropout)     | (None, 64)        | 0          |
+| output_layer (Dense)    | (None, 5)         | 325        |
+
 Toplam parametre: 6,299,165
 Eğitilebilir parametreler: 6,299,165
 Eğitilmeyen parametreler: 0
@@ -79,6 +75,7 @@ Dropout Oranları:
 Optimizasyon Yöntemi: Adam
 En iyi performansı gösteren model, doğrulama setinde %92.5 doğruluk elde etmiştir.
 
+---
 Sonuçlar
 Nihai Model Performansı
 En iyi hiperparametrelerle eğitim tamamlandıktan sonra modelin elde ettiği performans metrikleri:
